@@ -1,15 +1,13 @@
 .header {
-  background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_767.jpg");
+  background-image: url("..\mq-diplom2\images\jpeg\football_767.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
   padding: auto;
-  width: 320px;
 }
 
 .container {
-  width: 320px;
   padding-right: 20px;
   padding-left: 20px;
   
@@ -68,4 +66,14 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
 }
+
+.svg-logo {
+  fill: #ffffff;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  font-family: "OpenSans-Regular";
+}
+
 
