@@ -1,5 +1,24 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Bold.woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Regular.woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "OpenSans"; 
+}
+
+
 .header {
-  background-image: url("../mq-diplom2/images/jpeg/football_767.jpg");
+  background-image: url("../jpeg/football_767.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -38,13 +57,6 @@
   text-align: center;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-
-  font-family: OpenSans-Bold, OpenSans-Regular, sans-serif; 
-}
-
 .button {
   width: 280px;
   height: 35px;
@@ -71,20 +83,5 @@ body {
 
 .svg-logo {
   fill: #ffffff;
-}
-
-@font-face {
-  font-family: "OpenSans-Bold";
-  src: url("https://github.com/PetukhovaValentina/mq-diplom/blob/master/fonts/OpenSans-Bold.ttf");
-  src: url("https://github.com/PetukhovaValentina/mq-diplom/blob/master/fonts/OpenSans-Bold.woff");
-  src: url("https://github.com/PetukhovaValentina/mq-diplom/blob/master/fonts/OpenSans-Bold.woff2");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "OpenSans-Regular";
-  src: url("https://github.com/PetukhovaValentina/mq-diplom/blob/master/fonts/OpenSans-Regular.ttf");
-  src: url("https://github.com/PetukhovaValentina/mq-diplom/blob/master/fonts/OpenSans-Regular%20(2).woff");
-  src: url("https://github.com/PetukhovaValentina/mq-diplom/blob/master/fonts/OpenSans-Regular.woff2");
 }
 
