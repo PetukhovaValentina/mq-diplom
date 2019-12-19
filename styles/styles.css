@@ -18,7 +18,7 @@ body {
 
 
 .header {
-  background-image: url("../jpeg/football_767.jpg");
+  background-image: url("../images/jpeg/football_767.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -85,3 +85,10 @@ body {
   fill: #ffffff;
 }
 
+.logo-surface {
+  width: 130px;
+}
+
+.logo-app {
+  width: 20px;
+}
