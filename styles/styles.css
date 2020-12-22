@@ -18,18 +18,18 @@ body {
 
 
 .header {
-  background-image: url("../images/jpeg/football_767.jpg");
+  background-image: url("../images/jpeg/football_1920.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
-  padding: auto;
+  padding: auto; 
 }
 
 .container {
   padding-right: 20px;
   padding-left: 20px;
-  
+  width: 1920px;
   z-index: 6;
   position: relative;
 }
@@ -93,7 +93,8 @@ body {
 }
 
 .logo-surface {
-  width: 130px;
+  width: 190px;
+  text-align: center;
 }
 
 .logo-app {
