@@ -1,6 +1,6 @@
 .header {
   padding: 30px 0;
-  background-image: url("../img/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 .container {
-  width: 1170px;
+  width: 1920px;
   padding-right: 15px;
   padding-left: 15px;
   
