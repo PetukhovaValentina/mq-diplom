@@ -11,10 +11,6 @@ body{
   height: 3508px;
 }
 
-img{
-  max-width: 100%;
-}
-
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -104,7 +100,7 @@ a {
 }
 
 .flex:nth-child(n+2) {
-  margin-top: 60px;
+  margin-top: 68px;
 }
 
 .flex-container {
@@ -121,25 +117,8 @@ a {
   display: flex;
 }
 
-.flex-tags {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
 .flex-tags-item + .flex-tags-item { 
    margin-left: 16px;
-}
-
-.flex-tags-link { 
-  text-transform: uppercase; 
-  text-decoration: none;
-  color: #b59f5b;
-  font-size: 14px;
-  line-height: 40px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
 }
 
 .flex-tags-link0 {
@@ -185,12 +164,21 @@ a {
     color: #0f0d0e;
 }
 
+.title1 {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0 6px;
+    line-height: 29px;
+    color: #0f0d0e;
+}
+
 .divider::after {
   content: "";
   display: block;
   width: 66px;
   height: 3px;
-  margin: 7px auto 0;
+  margin: 15px auto 25px;
 }
 
 .divider-red::after {
@@ -218,7 +206,7 @@ a {
 }
 
 .posts:nth-child(n+2) {
-  margin-top:20px;
+  margin-top:30px;
 }
 
 .post {
@@ -229,15 +217,16 @@ a {
 
 .post-info {
   box-sizing: border-box;
-  margin-left: 15px;
+  margin-left: 18px;
+  line-height: 1px;
 }
 
 .info {
   width: 1170px;
-  padding: 0 15px;
+  padding: 0;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 16px auto 0;
 }
 
 .infor {
@@ -348,13 +337,8 @@ a {
   display: flex;
 }
 
-.flex-tags-item:not(:first-child) {
-  margin-left: 10px;
-}
-
 .flex-tags-link {
   text-transform: uppercase;
-  text-decoration: none;
   font-size: 14px;
   line-height: 40px;
   color: #b59f5b;
@@ -365,6 +349,8 @@ a {
   list-style-type: none; 
   padding: 0; 
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 } 
 
 .hash-list-item { 
@@ -511,9 +497,3 @@ a {
     font-weight: bold;
     text-transform: uppercase;
 }
-
-
-
-
-
-
